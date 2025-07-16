@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Cristãos - Vídeos para Crianças</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-cross"></i>
+                <span>Kids Cristãos</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#musicas" class="nav-link">Músicas</a>
+                <a href="#desenhos" class="nav-link">Desenhos</a>
+                <a href="#historias" class="nav-link">Histórias</a>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Buscar vídeos..." class="search-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-info">
+                <h1 class="hero-title">Davi e Golias</h1>
+                <p class="hero-description">
+                    Descubra a incrível história de Davi, o jovem pastor que venceu o gigante Golias 
+                    com fé em Deus. Uma aventura emocionante que ensina sobre coragem e confiança no Senhor.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-play" onclick="playVideo('UXRH7KxxvU0')">
+                        <i class="fas fa-play"></i>
+                        Assistir
+                    </button>
+                    <button class="btn btn-info">
+                        <i class="fas fa-info-circle"></i>
+                        Mais Informações
+                    </button>
+                </div>
+            </div>
+            <div class="hero-video">
+                <img src="https://img.youtube.com/vi/UXRH7KxxvU0/maxresdefault.jpg" alt="Davi e Golias" class="hero-thumbnail">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Desenhos Bíblicos -->
+        <section class="content-section" id="desenhos">
+            <h2 class="section-title">Desenhos Bíblicos</h2>
+            <div class="video-carousel">
+                <div class="carousel-container">
+                    <div class="video-card" onclick="playVideo('UXRH7KxxvU0')">
+                        <img src="https://img.youtube.com/vi/UXRH7KxxvU0/hqdefault.jpg" alt="Rei Davi">
+                        <div class="video-info">
+                            <h3>Rei Davi - Filme Completo</h3>
+                            <p>A história do jovem pastor que se tornou rei</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('K7jk6oXktfI')">
+                        <img src="https://img.youtube.com/vi/K7jk6oXktfI/hqdefault.jpg" alt="Maratona Desenhos Bíblicos">
+                        <div class="video-info">
+                            <h3>40 Histórias da Bíblia</h3>
+                            <p>Maratona com 164 minutos de desenhos</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('tq1six9xDac')">
+                        <img src="https://img.youtube.com/vi/tq1six9xDac/hqdefault.jpg" alt="Hora de Aprender">
+                        <div class="video-info">
+                            <h3>Hora de Aprender Vol.1</h3>
+                            <p>Desenho bíblico educativo completo</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('uM8dcpO1dgk')">
+                        <img src="https://img.youtube.com/vi/uM8dcpO1dgk/hqdefault.jpg" alt="Jonas">
+                        <div class="video-info">
+                            <h3>Jonas: O Mensageiro de Deus</h3>
+                            <p>A história de Jonas e a baleia</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('s_gkpfSBWPQ')">
+                        <img src="https://img.youtube.com/vi/s_gkpfSBWPQ/hqdefault.jpg" alt="Arca de Noé">
+                        <div class="video-info">
+                            <h3>A Arca de Noé</h3>
+                            <p>Desenho animado da história de Noé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Músicas Cristãs -->
+        <section class="content-section" id="musicas">
+            <h2 class="section-title">Músicas Cristãs</h2>
+            <div class="video-carousel">
+                <div class="carousel-container">
+                    <div class="video-card" onclick="playVideo('jBmppnmY3U0')">
+                        <img src="https://img.youtube.com/vi/jBmppnmY3U0/hqdefault.jpg" alt="Músicas Gospel">
+                        <div class="video-info">
+                            <h3>Músicas Gospel para Crianças</h3>
+                            <p>Mais de 1 hora de louvor infantil</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('KIGCsyMrkx8')">
+                        <img src="https://img.youtube.com/vi/KIGCsyMrkx8/hqdefault.jpg" alt="Turma do Cristãozinho">
+                        <div class="video-info">
+                            <h3>Tudo Tem O Seu Tempo</h3>
+                            <p>Turma do Cristãozinho</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('cx3U_ZKADmE')">
+                        <img src="https://img.youtube.com/vi/cx3U_ZKADmE/hqdefault.jpg" alt="Yasminzinha">
+                        <div class="video-info">
+                            <h3>Yasminzinha - Volume 1</h3>
+                            <p>Música gospel infantil completa</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('KxpJw7Nh2Lk')">
+                        <img src="https://img.youtube.com/vi/KxpJw7Nh2Lk/hqdefault.jpg" alt="Maratona Musical">
+                        <div class="video-info">
+                            <h3>Maratona Musical Gospel</h3>
+                            <p>+50 minutos com Jesus</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('q_6mzUdSs8A')">
+                        <img src="https://img.youtube.com/vi/q_6mzUdSs8A/hqdefault.jpg" alt="Top 10 Músicas">
+                        <div class="video-info">
+                            <h3>Top 10 Melhores Músicas</h3>
+                            <p>Especial músicas infantis gospel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Histórias Bíblicas -->
+        <section class="content-section" id="historias">
+            <h2 class="section-title">Histórias Bíblicas</h2>
+            <div class="video-carousel">
+                <div class="carousel-container">
+                    <div class="video-card" onclick="playVideo('XkG5tiVpQO8')">
+                        <img src="https://img.youtube.com/vi/XkG5tiVpQO8/hqdefault.jpg" alt="Desenhos Mais Assistidos">
+                        <div class="video-info">
+                            <h3>Desenhos Mais Assistidos</h3>
+                            <p>Histórias bíblicas favoritas</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('PYto9RXFGyE')">
+                        <img src="https://img.youtube.com/vi/PYto9RXFGyE/hqdefault.jpg" alt="50 min Desenho">
+                        <div class="video-info">
+                            <h3>50 min de Desenho Bíblico</h3>
+                            <p>Maratona de desenhos bíblicos</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('JU4c6CmHiaQ')">
+                        <img src="https://img.youtube.com/vi/JU4c6CmHiaQ/hqdefault.jpg" alt="20 Minutos com Jesus">
+                        <div class="video-info">
+                            <h3>20 Minutos com Jesus</h3>
+                            <p>Música infantil gospel</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('9fj9aAWOnig')">
+                        <img src="https://img.youtube.com/vi/9fj9aAWOnig/hqdefault.jpg" alt="Super Maratona">
+                        <div class="video-info">
+                            <h3>Super Maratona Musical</h3>
+                            <p>30 minutos sem parar</p>
+                        </div>
+                    </div>
+                    <div class="video-card" onclick="playVideo('kCPyb78b2dk')">
+                        <img src="https://img.youtube.com/vi/kCPyb78b2dk/hqdefault.jpg" alt="Jesus Cristo Sítio">
+                        <div class="video-info">
+                            <h3>Jesus Cristo tinha um Sítio</h3>
+                            <p>Coletânea musical infantil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="video-container">
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Kids Cristãos - Vídeos educativos para crianças</p>
+            <p>Todos os vídeos são do YouTube e pertencem aos seus respectivos criadores</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
